@@ -26,7 +26,7 @@ import { environment } from './../../environments/environment';
 
 import { MapsComponent } from './maps/maps.component';
 import { SocketService } from '../socket.service';
-import { MoneyComponent } from './money/money.component';
+import { MoneyComponent } from '../admin/money/money.component';
 
 const config: SocketIoConfig = { url: environment.apiUrl, options: {} };
 
