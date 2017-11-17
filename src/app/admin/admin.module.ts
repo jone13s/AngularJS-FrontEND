@@ -26,6 +26,7 @@ import { environment } from './../../environments/environment';
 
 import { MapsComponent } from './maps/maps.component';
 import { SocketService } from '../socket.service';
+import { MoneyComponent } from './money/money.component';
 
 const config: SocketIoConfig = { url: environment.apiUrl, options: {} };
 
@@ -57,7 +58,8 @@ export function highchartsFactory() {
     ToThaiDatePipe,
     YellowTextDirective,
     DashboardComponent,
-    MapsComponent
+    MapsComponent,
+    MoneyComponent
   ],
   providers: [
     UserService,
