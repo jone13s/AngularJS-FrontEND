@@ -8,6 +8,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { AuthGuardService } from '../services/auth-guard.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MapsComponent } from './maps/maps.component';
+import { MoneyComponent } from './money/money.component';
 
 
 const routes: Routes = [
@@ -23,6 +24,7 @@ const routes: Routes = [
       { path: 'credit', component: CreditComponent }, // /admin/credit
       { path: 'dashboard', component: DashboardComponent }, // /admin/dashboard
       { path: 'maps', component: MapsComponent }, // /admin/maps
+      { path: 'money', component: MoneyComponent }, // /admin/maps
       { path: '**', component: PageNotFoundComponent },
     ]
   },
