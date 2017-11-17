@@ -14,7 +14,9 @@ import { FormsModule } from '@angular/forms';
 import { AuthGuardService } from '../services/auth-guard.service';
 import { ToSexNamePipe } from '../to-sex-name.pipe';
 import { ToThaiDatePipe } from '../to-thai-date.pipe';
-import { YellowTextDirective } from './yellow-text.directive';
+import { PinkTextDirective } from './Pink-text.directive';
+import { GreenTextDirective } from './Green-text.directive';
+import { Color1TextDirective } from './color1-text.directive';
 import { DirectivesModule } from '../directives/directives.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ChartModule } from 'angular2-highcharts';
@@ -27,6 +29,7 @@ import { environment } from './../../environments/environment';
 import { MapsComponent } from './maps/maps.component';
 import { SocketService } from '../socket.service';
 import { MoneyComponent } from '../admin/money/money.component';
+
 
 const config: SocketIoConfig = { url: environment.apiUrl, options: {} };
 
@@ -56,7 +59,9 @@ export function highchartsFactory() {
     LayoutComponent,
     ToSexNamePipe,
     ToThaiDatePipe,
-    YellowTextDirective,
+    PinkTextDirective,
+    GreenTextDirective,
+    Color1TextDirective,
     DashboardComponent,
     MapsComponent,
     MoneyComponent

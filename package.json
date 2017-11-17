@@ -31,6 +31,7 @@
     "core-js": "^2.4.1",
     "moment": "^2.19.2",
     "ng-socket-io": "^0.2.0",
+    "node-geolocation": "^1.15.14",
     "rxjs": "^5.5.2",
     "zone.js": "^0.8.14"
   },

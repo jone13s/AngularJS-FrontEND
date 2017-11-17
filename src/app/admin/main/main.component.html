@@ -51,12 +51,12 @@
         <clr-icon shape="note"></clr-icon> Send Add user
       </a>
     </clr-dg-action-overflow>
-    <clr-dg-cell appYellowText>{{user.username | uppercase}}</clr-dg-cell>
-    <clr-dg-cell>{{user.first_name | lowercase}}</clr-dg-cell>
-    <clr-dg-cell>{{user.last_name}}</clr-dg-cell>
-    <clr-dg-cell>{{user.user_type_name}}</clr-dg-cell>
-    <clr-dg-cell>{{user.sex | toSexName}}</clr-dg-cell>
-    <clr-dg-cell>{{user.birth | toThaiDate}}</clr-dg-cell>
+    <clr-dg-cell appColor1Text>{{user.username | uppercase}}</clr-dg-cell>
+    <clr-dg-cell appPinkText>{{user.first_name | lowercase}}</clr-dg-cell>
+    <clr-dg-cell appGreenText>{{user.last_name}}</clr-dg-cell>
+    <clr-dg-cell appPinkText>{{user.user_type_name}}</clr-dg-cell>
+    <clr-dg-cell appGreenText>{{user.sex | toSexName}}</clr-dg-cell>
+    <clr-dg-cell appColor1Text>{{user.birth | toThaiDate}}</clr-dg-cell>
     <clr-dg-cell>
       <clr-icon shape="user" class="is-success" *ngIf="user.is_active==='Y'"></clr-icon>
       <clr-icon shape="user" class="is-danger has-badge" *ngIf="user.is_active==='N'"></clr-icon>
