@@ -24,7 +24,7 @@ const routes: Routes = [
       { path: 'credit', component: CreditComponent }, // /admin/credit
       { path: 'dashboard', component: DashboardComponent }, // /admin/dashboard
       { path: 'maps', component: MapsComponent }, // /admin/maps
-      { path: 'money', component: MoneyComponent }, // /admin/maps
+      { path: 'money', component: MoneyComponent  }, // /admin/maps
       { path: '**', component: PageNotFoundComponent },
     ]
   },
