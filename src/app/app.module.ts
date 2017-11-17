@@ -21,12 +21,11 @@ import { JwtHelper } from 'angular2-jwt';
 import { ToSexNamePipe } from './to-sex-name.pipe';
 import { ToThaiDatePipe } from './to-thai-date.pipe';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
-import { MoneyComponent } from '../app/admin/money/money.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MoneyComponent,
+  
   ],
   imports: [
     BrowserModule,

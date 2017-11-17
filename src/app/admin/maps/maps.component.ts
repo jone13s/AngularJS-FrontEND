@@ -109,6 +109,7 @@ export class MapsComponent implements OnInit {
   async saveMap() {
     if (this.userId && this.lat && this.lng) {
       let rs = await this.userService.updateLatLng(this.userId, this.lat, this.lng);
+      console.log(rs);
       if (rs.ok) {
         alert('Success');
       } else {
