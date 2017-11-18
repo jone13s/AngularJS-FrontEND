@@ -17,7 +17,7 @@ export class UserService {
 
   // somsak create
   async somsak_getUsers(){
-    var url = this.url + '/somsak_Api/somsak_getUsers';
+    var url = this.url + '/somsak_Api/users';
    var rs: any = await this.authHttp.get(url).toPromise();
    return rs.json();
 
