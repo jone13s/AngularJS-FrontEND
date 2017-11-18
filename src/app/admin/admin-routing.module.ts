@@ -10,6 +10,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { MapsComponent } from './maps/maps.component';
 import { MoneyComponent } from './money/money.component';
 
+import { MyViewComponent } from './my_view/my_view.component';
+
 
 const routes: Routes = [
   {
@@ -25,6 +27,7 @@ const routes: Routes = [
       { path: 'dashboard', component: DashboardComponent }, // /admin/dashboard
       { path: 'maps', component: MapsComponent }, // /admin/maps
       { path: 'money', component: MoneyComponent  }, // /admin/maps
+      { path: 'my_view', component: MyViewComponent },
       { path: '**', component: PageNotFoundComponent },
     ]
   },

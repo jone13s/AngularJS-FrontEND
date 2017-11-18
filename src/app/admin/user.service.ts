@@ -15,6 +15,15 @@ export class UserService {
   //   return rs.json();
   // }
 
+  // somsak create
+  async somsak_getUsers(){
+    var url = this.url + '/somsak_Api/somsak_getUsers';
+   var rs: any = await this.authHttp.get(url).toPromise();
+   return rs.json();
+
+  }
+  // somsak create
+
   async getUserTypesList() {
     let url = this.url + '/api/user-types';
     let rs: any = await this.authHttp.get(url).toPromise();

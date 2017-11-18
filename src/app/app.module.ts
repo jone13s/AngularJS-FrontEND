@@ -22,6 +22,7 @@ import { ToSexNamePipe } from './to-sex-name.pipe';
 import { ToThaiDatePipe } from './to-thai-date.pipe';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
+//import { MyViewComponent } from './admin/my_view/my_view.component';
 @NgModule({
   declarations: [
     AppComponent,
