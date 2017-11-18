@@ -47,7 +47,7 @@ export class MyViewComponent implements OnInit {
   }
   async getUsers() {
     this.loding = true;
-    let rs = await this.userService.somsak_getUsers();
+    let rs = await this.userService.getUsers();
     // console.log(rs);
     this.users = rs.rows;
     this.loding = false;
